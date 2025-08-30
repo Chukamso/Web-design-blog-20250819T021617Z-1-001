@@ -1,0 +1,99 @@
+body
+{background-color: rgb(237, 249, 255);
+    margin: 10%;
+    font-family:'Corbel';
+}
+
+    h1{ 
+        font-family:  'Segoe UI';
+        font-weight:100l;
+        text-align: center; }
+
+        h2{text-align: Center;
+            font-family: 'Segoe UI';
+            font-weight: 100;
+    }
+
+.ep1{text-align: center;} 
+
+.sectionbg{
+    border-radius:2em;
+    background-color: rgb(217, 233, 236);
+    padding: 5%;
+    margin: 10px 0px 10px 0px;
+}
+
+button {
+    border: none;
+    background-color:  rgb(139, 154, 156);
+    border-radius: 2em;
+   padding-top:1%
+}
+#register_btn{
+    width: 60%;
+}
+
+#register{text-align: center;}
+#rlogo{ text-align: center;}
+
+#an1 {position: fixed;
+    bottom:20px;
+    left: 10px;}
+    
+#an1 {animation: loading 5s infinite;}
+     @keyframes loading{ 0% {transform:rotate(0deg);}
+    100% {transform: rotate(360deg);}}
+
+#helplabel {position: fixed;
+    bottom:50px;
+    left: 30px;
+   
+}
+
+#help_text{
+   position: fixed;
+   bottom: 5px;
+   left: 5px; 
+   font-size: xx-small;
+}
+
+pre {
+    font-family: 'Corbel';
+}
+
+#helplabel {animation: floating 5s infinite;}
+      @keyframes floating{0%{transform: translateY(0);}
+                          50% {transform: translateY(30px);}
+                          100%{transform: translateY(0);}}
+
+#devenable-b {
+    padding: 0.85% 0.7% 0.6% 0.65%;
+    background-color: rgb(237, 249, 255) ;
+    position: fixed;
+                   top: 10px;
+                   left:10px;
+            }
+
+ #navigation {animation: fade 1s ease-in-out;}
+ @keyframes fade{ 0% {transform: translateX(100%);
+                                 opacity: 0;} 
+ 100%{ transform: translateX(0);
+                 opacity:1;}}       
+
+
+  #navigation{ width: auto;
+    height: auto;
+     text-align: center;
+     position: fixed;
+     top: 10px;
+     right: 10px;
+     border: none ;
+      background-color: rgb(217, 233, 236);
+     font-size: 80%;
+      font-weight: 200;
+     border-radius: 30px;
+     padding: 1%;    
+      padding-top: 2%;
+     padding-bottom: 2%;
+     display: none;
+            }

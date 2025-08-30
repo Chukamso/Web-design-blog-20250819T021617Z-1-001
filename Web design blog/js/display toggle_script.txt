@@ -1,0 +1,22 @@
+Javascript end (in the js file)
+
+
+function dev (){var navigation=
+    document.getElementById("navigation");
+    if (navigation.style.display==="block")
+         {navigation.style.display= "none"}
+    else {navigation.style.display= "block"}
+} 
+
+
+1. Replace "navigation" with the element id u want it's display state to be toggled
+2. Replace "dev" with the function name in case u want to refer the function in a html file or so
+
+Receptor end
+
+onclick="dev()"
+
+1. Replace onclick with double click or hover depending on the function activation method u prefer for the function
+2. Replace 'dev' with the function name (refer to javascript end no.2 )
+
+Guide was built for toggling element display states withn javascript

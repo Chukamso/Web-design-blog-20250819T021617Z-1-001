@@ -1,0 +1,115 @@
+body {
+    background-color:rgb(252, 252, 252);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: aliceblue;
+    height: auto;
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+.logo-holder {
+    width: 100%;
+    height: auto;
+}
+l
+.menu-holder {
+    text-align: right;
+}
+.menu-button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.551);
+    font-weight: bold;
+    border-radius: 8px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 2px 1px rgba(231, 113, 113, 0.332);
+}
+h2 {
+    text-align: left;
+    border-bottom: 3px solid gray;
+}
+h3 {
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(53, 53, 53);
+    border-radius: 5px
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 2px 1px 2px 1px rgba(148, 148, 148, 0.921);
+}
+#form01 { 
+    border: bottom radius 10px solid;
+}
+#dvrei {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#rei {
+    display: none;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#devenable-b{ padding: .5%;
+    border: none;
+    border-radius: 8px;
+       box-shadow: 0px .5px 1px 1px ;
+       position: fixed;
+       bottom: 80px;
+       right:10px}
+
+
+ #navigation {animation: fade 1s ease-in-out;}
+ @keyframes fade{ 0% {transform: translateX(100%);
+                                 opacity: 0;} 
+ 100%{ transform: translateX(0);
+                 opacity:1;}}      
+                 
+#navigation{text-align: center;
+     position: fixed;
+    bottom: 10px;
+     right: 10px;
+     background-color: bisque;
+     border-radius: 7px;
+     padding: 1%;
+     display: none;}
