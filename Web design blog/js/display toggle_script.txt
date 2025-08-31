@@ -18,5 +18,6 @@ onclick="dev()"
 
 1. Replace onclick with double click or hover depending on the function activation method u prefer for the function
 2. Replace 'dev' with the function name (refer to javascript end no.2 )
+3. Place the onclick command in the place u would place the id, (before the id)
 
 Guide was built for toggling element display states withn javascript
