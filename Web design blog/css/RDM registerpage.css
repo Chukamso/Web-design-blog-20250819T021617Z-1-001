@@ -41,21 +41,25 @@ form {
 
 
 input {
-         margin-bottom: 5px;
-         margin-top: 8px;
+        background-color: rgb(255, 255, 255);
+         margin-bottom: 15px;
+         margin-top: 5px;
          border:none;
          outline: none;
          padding: 10px;
-         border-radius: 100px;
+         border-radius: 300px;
          width: 70%;
          box-shadow: 3px 1px 2px 1px}
 
- input:focus {
-         box-shadow: 2px 2px 2px 2px rgb(195, 241, 215);
-         padding: 12px;
+ input:hover {
+         box-shadow: 1px 1px 1px 1px rgb(0, 255, 110);
+        
         }         
 
-.inputTag{border-radius: 10px;}
+ input:focus {
+         box-shadow: 1px 1px 1px 2px rgb(0, 255, 110);
+         
+        }         
 
 
 #ep1{ 
@@ -76,21 +80,27 @@ input {
         padding: 0% 1% 0% 1%;
 }
           
-#navigation{ width: auto;
-        height: auto;
+#navigation{ width:20%;
+        height:auto;
         text-align: center;
+        align-items: center;
+        justify-items: center;
         position: fixed;
         top: 10px;
         right: 10px;
         border: none ;
         background-color: rgb(217, 233, 236);
-        font-size: 80%;
-        font-weight: 200;
+        font-size: 100%;
+        font-weight: 27;
         border-radius: 30px;
         padding: 1%;    
         padding-top: 2%;
         padding-bottom: 2%;
         display: none;
+            display: grid; /* Add this */
+    grid-template-columns: repeat(2, auto); /* 2 columns */
+    grid-template-rows: repeat(1, auto);   /* 4 rows */
+    gap: px; /* Optional: space between items */
 }
 #devenable-b {
         padding: 0.85% 0.7% 0.6% 0.65%;
@@ -128,7 +138,7 @@ footer {
 
 .sectionbg{
         border-radius:2em;
-        background-color: rgb(217, 233, 236);
+        background-color: rgb(202, 213, 214);
         padding: 5%;
         margin: 10px 0px 10px 0px;
 }

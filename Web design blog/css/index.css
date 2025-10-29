@@ -1,0 +1,16 @@
+body{
+    text-align:center;
+    margin:20%;
+    background-color: rgb(237, 249, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT',
+     'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#text_bx1{
+background-color:  rgb(186, 196, 197);
+border-radius: 10px;
+}
+
+#gear_an{animation: loading 5s infinite;}
+@keyframes loading{ 0% {transform:rotate(0deg);}
+100% {transform: rotate(360deg);}}
